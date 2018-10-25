@@ -1,0 +1,139 @@
+1539793256882	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.mQLH02rMLUpW"
+1539793258950	Marionette	INFO	Listening on port 46109
+1539793258993	Marionette	WARN	TLS certificate errors will be ignored for this session
+1539793455552	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rdjPxfQP2chn"
+1539793456938	Marionette	INFO	Listening on port 34071
+1539793456959	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+console.log: Accessibility service init or shutdown observer does not exist.
+[Parent 3488, Gecko_IOThread] WARNING: pipe error (93): Connection reset by peer: file /build/firefox-esr-RlCnTw/firefox-esr-60.2.2esr/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1540383652910	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.oeAOksh0D5Kv"
+1540383654287	Marionette	INFO	Listening on port 42973
+1540383654319	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540383710837	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Mi2eFCJ8Vv0I"
+1540383712182	Marionette	INFO	Listening on port 43707
+1540383712253	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.ovh.co.uk/js/jquery/1.10.2/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1540383749514	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.ruy8THYYn05b"
+1540383750859	Marionette	INFO	Listening on port 35717
+1540383750920	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540383917875	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.Xn5FUIdETzJV"
+1540383919212	Marionette	INFO	Listening on port 40221
+1540383919285	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1540383928271	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.kO5OjdSYnVc1"
+1540383929574	Marionette	INFO	Listening on port 38937
+1540383929579	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1540383956090	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.xhpX6e8aL2RQ"
+1540383957438	Marionette	INFO	Listening on port 35191
+1540383957517	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+1540384096088	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.x8BUPMXQwGyj"
+1540384097421	Marionette	INFO	Listening on port 44023
+1540384097493	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://ki.pwr.edu.pl/, line 184: SyntaxError: 09 is not a legal ECMA-262 octal constant
+JavaScript warning: http://ki.pwr.edu.pl/, line 184: SyntaxError: 09 is not a legal ECMA-262 octal constant
+JavaScript warning: http://ki.pwr.edu.pl/, line 184: SyntaxError: 08 is not a legal ECMA-262 octal constant
+JavaScript warning: http://ki.pwr.edu.pl/, line 184: SyntaxError: 08 is not a legal ECMA-262 octal constant
+JavaScript warning: http://ki.pwr.edu.pl/, line 184: SyntaxError: 09 is not a legal ECMA-262 octal constant
+JavaScript warning: http://ki.pwr.edu.pl/, line 184: SyntaxError: 09 is not a legal ECMA-262 octal constant
+JavaScript warning: http://ki.pwr.edu.pl/, line 184: SyntaxError: 08 is not a legal ECMA-262 octal constant
+JavaScript warning: http://ki.pwr.edu.pl/, line 184: SyntaxError: 08 is not a legal ECMA-262 octal constant
+JavaScript warning: http://ki.pwr.edu.pl/, line 184: SyntaxError: 08 is not a legal ECMA-262 octal constant
+JavaScript warning: http://ki.pwr.edu.pl/, line 184: SyntaxError: 08 is not a legal ECMA-262 octal constant
+JavaScript warning: http://ki.pwr.edu.pl/, line 184: SyntaxError: 09 is not a legal ECMA-262 octal constant
+JavaScript warning: http://ki.pwr.edu.pl/, line 184: SyntaxError: 09 is not a legal ECMA-262 octal constant
+JavaScript warning: http://ki.pwr.edu.pl/, line 184: SyntaxError: 09 is not a legal ECMA-262 octal constant
+JavaScript warning: http://ki.pwr.edu.pl/, line 184: SyntaxError: 09 is not a legal ECMA-262 octal constant
+JavaScript warning: http://ki.pwr.edu.pl/, line 184: SyntaxError: 08 is not a legal ECMA-262 octal constant
+JavaScript warning: http://ki.pwr.edu.pl/, line 184: SyntaxError: 08 is not a legal ECMA-262 octal constant
+JavaScript warning: http://ki.pwr.edu.pl/, line 184: SyntaxError: 09 is not a legal ECMA-262 octal constant
+JavaScript warning: http://ki.pwr.edu.pl/, line 184: SyntaxError: 09 is not a legal ECMA-262 octal constant
+JavaScript warning: http://ki.pwr.edu.pl/, line 184: SyntaxError: 08 is not a legal ECMA-262 octal constant
+JavaScript warning: http://ki.pwr.edu.pl/, line 184: SyntaxError: 08 is not a legal ECMA-262 octal constant
+JavaScript warning: http://ki.pwr.edu.pl/, line 184: SyntaxError: 08 is not a legal ECMA-262 octal constant
+JavaScript warning: http://ki.pwr.edu.pl/, line 184: SyntaxError: 08 is not a legal ECMA-262 octal constant
+JavaScript warning: http://ki.pwr.edu.pl/, line 184: SyntaxError: 09 is not a legal ECMA-262 octal constant
+JavaScript warning: http://ki.pwr.edu.pl/, line 184: SyntaxError: 09 is not a legal ECMA-262 octal constant
+console.log: Accessibility service init or shutdown observer does not exist.
+console.log: Accessibility service init or shutdown observer does not exist.
+console.log: Accessibility service init or shutdown observer does not exist.
+1540384353195	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5J9VSzQz8Mqi"
+1540384354522	Marionette	INFO	Listening on port 46379
+1540384354607	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540384397918	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.X1oIIrb3bv0e"
+1540384399223	Marionette	INFO	Listening on port 38223
+1540384399329	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540384549374	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.SpoDOaBraP8n"
+1540384550693	Marionette	INFO	Listening on port 39231
+1540384550781	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1540384686425	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.f9QEfAJ4KuYQ"
+1540384687728	Marionette	INFO	Listening on port 34341
+1540384687733	Marionette	WARN	TLS certificate errors will be ignored for this session
+1540385445021	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9hjEdUph5eCw"
+1540385446410	Marionette	INFO	Listening on port 40103
+1540385446431	Marionette	WARN	TLS certificate errors will be ignored for this session
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+JavaScript error: http://a.espncdn.com/redesign/0.418.7/js/espn-defer.js, line 40: TypeError: espn.p13ncontent.helpers.favorites is undefined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-817714641, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-817714641, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-817714641, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-817714641, line 75: unreachable code after return statement
+JavaScript error: http://a.espncdn.com/redesign/0.418.7/js/espn-defer.js, line 40: TypeError: espn.p13ncontent.helpers.favorites is undefined
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-817714641, line 75: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-817714641, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-817714641, line 124: unreachable code after return statement
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=AW-817714641, line 75: unreachable code after return statement
+console.log: Accessibility service init or shutdown observer does not exist.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+console.log: Accessibility service init or shutdown observer does not exist.
+console.log: Accessibility service init or shutdown observer does not exist.
+console.log: Accessibility service init or shutdown observer does not exist.
+console.log: Accessibility service init or shutdown observer does not exist.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /run/user/1000/gdm/Xauthority which is owned by kamwill.)
+1540386311466	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.diMjtabYS0ng"
+1540386312781	Marionette	INFO	Listening on port 36687
+1540386312871	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1540386347317	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.9HLX0ISksgbh"
+1540386348582	Marionette	INFO	Listening on port 33065
+1540386348629	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1540386417204	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.1PeGoRHBkaSV"
+1540386418491	Marionette	INFO	Listening on port 38859
+1540386418514	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /run/user/1000/gdm/Xauthority which is owned by kamwill.)
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /run/user/1000/gdm/Xauthority which is owned by kamwill.)
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /run/user/1000/gdm/Xauthority which is owned by kamwill.)
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /run/user/1000/gdm/Xauthority which is owned by kamwill.)
+1540387342773	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.uZtuIaWkBbsN"
+1540387344135	Marionette	INFO	Listening on port 43213
+1540387344180	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /run/user/1000/gdm/Xauthority which is owned by kamwill.)
+Running Firefox as root in a regular user's session is not supported.  ($XAUTHORITY is /run/user/1000/gdm/Xauthority which is owned by kamwill.)
+1540463783809	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.R09MheQndg9e"
+1540463785843	Marionette	INFO	Listening on port 42289
+1540463785915	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1540463820417	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.OCcF3DyIBaYj"
+1540463821711	Marionette	INFO	Listening on port 39793
+1540463821725	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.log: Accessibility service init or shutdown observer does not exist.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
