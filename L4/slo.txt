@@ -603,6 +603,7 @@ zima
 napoj
 wielkosc
 zdjecie
+zdjecia
 obywatel
 zobaczyc
 lozko
@@ -1143,6 +1144,8 @@ plec
 silnik
 sluzba
 piosenka
+piosenkarka
+piosenkarki
 zwykly
 widoczny
 Stany
@@ -1981,6 +1984,8 @@ Kosciol
 policzek
 niesc
 katastrofa
+Krystyna
+Krystynie
 pojawiac
 sie
 przymiotnik
