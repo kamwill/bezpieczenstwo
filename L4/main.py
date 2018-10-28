@@ -1,33 +1,79 @@
 #!/usr/bin/python3
-
+import operator
 import re
-
-def decode(cipher_org, cipher_xor, word, key):
-    f = [(a.span()) for a in list(re.finditer(word, cipher_xor))]
+from collections import Counter
 
 
-def check_word(message, word):
-    return word in message
+def find_word(cipher_xor, word):
+    return [(a.span()) for a in list(re.finditer(word, cipher_xor, re.IGNORECASE))]
 
 
-def get_message(cipher, d):
-    s = ""
+def get_message(ciphers, key, key_tuple, znaki):
+    messages = []
+    for i in range(len(ciphers)):
+        m = decode(ciphers[i], key)
+        messages.append(m)
+        errors = check_message(m, znaki)
 
-    for letter in cipher:
-        s += d.get(letter, " ")
+        if len(errors) > 0:
+            key = fix_key(key, key_tuple, errors)
+            for j in range(i+1):
+                messages[j] = decode(ciphers[j], key)
 
-    return s
+    return messages
 
-def create_dict(letter_counter, frequency):
-    d={}
-    for i in range(len(frequency)):
-        if max(letter_counter) > 0:
-            m = letter_counter.index(max(letter_counter))
-            d.update({m:frequency[i]})
-            letter_counter[m] = 0
+
+def check_message(m, znaki):
+    errors = []
+    for i in range(len(m)):
+        z = set(m[i])
+        if z.issubset(znaki):
+            errors.append(i)
+
+    return errors
+
+
+def decode(cipher, key):
+    result = ""
+    for i in range(len(cipher)):
+        if key[i] != "*":
+            x = cipher[i] ^ key[i]
+            result += chr(cipher[i] ^ key[i])
         else:
-            return d
-    return d
+            result += "*"
+
+    return result
+
+
+def find_key(cipher_org, cipher_xor, word, key):
+    f = find_word(cipher_xor, word) #indeksy znalezionego słowa
+    n = len(f)
+    if n > 0:
+        for i in range(n):
+            for j in range(f[i][0], f[i][1]):
+                key[j].append(ord(cipher_xor[j]) ^ cipher_org[j])
+
+
+def resolve_key(key, key_tuple):
+    for i in range(len(key)):
+        l = Counter(key[i])
+        key_tuple.append(l)
+        if len(l) > 0:
+            r = max(l.items(), key=operator.itemgetter(1))[0]
+            key[i] = r
+        else:
+            key[i] = "*"
+
+
+def fix_key(key, key_tuple, errors):
+    for error in errors:
+        del key_tuple[error][key[error]]
+        if len(key_tuple[error]) > 0:
+            key[error] = max(key_tuple[error].items(), key=operator.itemgetter(1))[0]
+        else:
+            key[error] = "*"
+
+    return key
 
 
 def get_text(s):
@@ -35,7 +81,7 @@ def get_text(s):
     for i in range(len(s)):
         if s[i] is not None:
             r += chr(s[i])
-        else :
+        else:
             r += " "
     return r
 
@@ -86,18 +132,30 @@ def xor_ciphers(c1, c2, k, l, same_letter, letter, letter_counter):
             letter_counter[v+32] += 1
 
 
-
 def main():
     n = 20
     maks = 0
-    frequency = ["a", "i", "o", "e", "z", "n", "r", "w", "s", "t", "c", "y", "k", "d", "p", "m", "u", "j", "l"]
     with open('file.txt') as f:
         read_data = f.read()
 
+    with open('slo.txt') as slownik:
+        words = slownik.read()
+
+    with open('znaki.txt') as z:
+        znaki = z.read()
+
+    words = words.replace("\n", " ")
+    words = words.split(" ")
+    words = list(set(words))
+
+    znaki = znaki.split(" ")
+
+    #parsowanie pliku wejsciowego
     read_data = re.sub(r"kryptogram nr [0-9]+:\n", '', read_data)
     read_data = re.sub(r"\(zad 1\).*\:", '', read_data)
     ciphers = [line for line in read_data.split('\n') if line.strip() != '']
 
+    #zamiana wartosci binarnych na int
     for i in range(len(ciphers)):
         ciphers[i] = ciphers[i].split(" ")
         l = len(ciphers[i])
@@ -106,34 +164,54 @@ def main():
         for j in range(l):
             ciphers[i][j] = get_int(ciphers[i][j])
 
-    key = [0 for _ in range(maks)]
+    #zmienne pomocnicze
+    key = [[] for _ in range(maks)]
     same_letter = [[] for _ in range(maks)]
     letter = [[None for _ in range(maks)] for _ in range(n)]
     letter_counter = [0 for _ in range(150)]
 
 
-
+    #xor szyfrogramów każdy z każdym
     for i in range(n):
         for j in range(n):
             if i != j:
                 xor_ciphers(ciphers[i], ciphers[j], i, j, same_letter, letter, letter_counter)
 
+    #zamień wartości int liter na pełen tekst
+    messages = []
+    for cipher in letter:
+        text = get_text(cipher)
+        messages.append(text)
+
+    #szukanie popularnych słów
+    #words=[" i "]
     for i in range(n):
-        print(i, ": ", letter[i])
+        for word in words:
+            find_key(ciphers[i], messages[i], word, key)
 
+    key_tuple =[]
+    resolve_key(key, key_tuple)
+
+    #for i in range(len(key_tuple)):
+    #    if len(key_tuple[i]) > 1:
+    #        print(i, ": ", key_tuple[i])
+
+    licznik = 0
     for i in range(maks):
-        print(i, ": ", same_letter[i])
+        if key[i] != "*":
+            licznik += 1
+
+    print(licznik)
+
+    print(key)
+    get_message(ciphers, key, key_tuple, znaki)
 
 
-    print(letter_counter[97])
-    d = create_dict(letter_counter, frequency)
-    print(len(frequency), len(d), d)
+    for cipher in ciphers:
+        print(decode(cipher, key))
 
-    #print(get_message(letter[19], d))
 
-    get_text(letter[1])
-    mess = ''.join(letter[1])
-    print(mess,mess.find("ale"))
+
 
 
 if __name__== "__main__":
