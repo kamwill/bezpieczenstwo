@@ -2,6 +2,7 @@
 import operator
 import re
 from collections import Counter
+import sys
 
 
 def find_word(cipher_xor, word):
@@ -132,10 +133,11 @@ def xor_ciphers(c1, c2, k, l, same_letter, letter, letter_counter):
             letter_counter[v+32] += 1
 
 
-def main():
-    n = 20
+def main(argv):
+
     maks = 0
-    with open('file.txt') as f:
+    n = int(argv[2])
+    with open(argv[1]) as f:
         read_data = f.read()
 
     with open('slo.txt') as slownik:
@@ -201,9 +203,6 @@ def main():
         if key[i] != "*":
             licznik += 1
 
-    print(licznik)
-
-    print(key)
     get_message(ciphers, key, key_tuple, znaki)
 
 
@@ -211,8 +210,5 @@ def main():
         print(decode(cipher, key))
 
 
-
-
-
 if __name__== "__main__":
-    main()
+    main(sys.argv)
