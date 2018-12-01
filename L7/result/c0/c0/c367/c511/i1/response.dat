@@ -1,0 +1,25 @@
+HTTP/1.1 200 Partial Content
+Date: Mon, 26 Nov 2018 18:37:13 GMT
+Server: Apache/2.4.37 (Unix) OpenSSL/1.0.2p PHP/7.2.12 mod_perl/2.0.8-dev Perl/v5.16.3
+X-Powered-By: PHP/7.2.12
+Content-Range: bytes 0-3155/3156
+Content-Length: 3156
+Keep-Alive: timeout=5, max=49
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+    <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+    <title>Register</title>
+    <link rel="STYLESHEET" type="text/css" href="style/fg_membersite.css" />
+    <script type='text/javascript' src='scripts/gen_validatorv31.js'></script>
+    <link rel="STYLESHEET" type="text/css" href="style/pwdwidget.css" />
+    <script src="scripts/pwdwidget.js" type="text/javascript"></script>      
+</head>
+<body>
+
+<!-- Form Code Start -->
+<div id='fg_membersite'>
+<form id='register' action='/bezp_L6/source/register.php/' method='post' accept-charset='UTF-8'

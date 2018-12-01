@@ -1,0 +1,13 @@
+HTTP/1.1 302 Found
+Date: Mon, 26 Nov 2018 18:36:54 GMT
+Server: Apache/2.4.37 (Unix) OpenSSL/1.0.2p PHP/7.2.12 mod_perl/2.0.8-dev Perl/v5.16.3
+X-Powered-By: PHP/7.2.12
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Location: index.php
+Content-Length: 0
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+

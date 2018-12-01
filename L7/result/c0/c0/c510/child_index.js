@@ -1,0 +1,4 @@
+var child = [
+  { 'dupe': false, 'type': 64, 'name': 'email=skipfish@example.com', 'dir': 'c0', 'linked': 5, 'url': 'http://localhost/bezp_L6/reset-pass.php/ DATA:email=skipfish@example.com&submit=Submit', 'fetched': true, 'code': 200, 'len': 982, 'decl_mime': 'text/html', 'sniff_mime': '[none]', 'cset': 'UTF-8', 'missing': false, 'csens': false, 'child_cnt': 0, 'issue_cnt': [ 1, 0, 0, 1, 0 ], 'sig': 0xffbd364e },
+  { 'dupe': false, 'type': 64, 'name': 'submit=Submit', 'dir': 'c1', 'linked': 5, 'url': 'http://localhost/bezp_L6/reset-pass.php/ DATA:email=skipfish@example.com&submit=Submit', 'fetched': true, 'code': 200, 'len': 982, 'decl_mime': 'text/html', 'sniff_mime': '[none]', 'cset': 'UTF-8', 'missing': false, 'csens': false, 'child_cnt': 0, 'issue_cnt': [ 0, 0, 0, 0, 0 ], 'sig': 0xffbfffff }
+];

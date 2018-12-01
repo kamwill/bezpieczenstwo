@@ -1,0 +1,14 @@
+HTTP/1.1 200 Partial Content
+Date: Mon, 26 Nov 2018 18:36:30 GMT
+Server: Apache/2.4.37 (Unix) OpenSSL/1.0.2p PHP/7.2.12 mod_perl/2.0.8-dev Perl/v5.16.3
+Last-Modified: Sun, 01 Feb 2009 01:37:34 GMT
+ETag: "430-461d17b727380"
+Accept-Ranges: bytes
+Content-Length: 1072
+Content-Range: bytes 0-1071/1072
+Keep-Alive: timeout=5, max=67
+Connection: Keep-Alive
+Content-Type: image/png
+
+‰PNG
+

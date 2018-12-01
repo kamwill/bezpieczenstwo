@@ -1,0 +1,10 @@
+GET /icons/tar.png HTTP/1.1
+Host: localhost
+Accept-Encoding: gzip
+Connection: keep-alive
+User-Agent: Mozilla/5.0 SF/2.10b
+Range: bytes=0-399999
+Referer: http://localhost/
+Authorization: Basic a2FtaWxhOk1vbmszMDQw
+Cookie: PHPSESSID=1e855653e9b99a541c01620abbdea47c
+

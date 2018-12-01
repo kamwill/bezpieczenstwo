@@ -1,0 +1,65 @@
+HTTP/1.1 200 Partial Content
+Date: Mon, 26 Nov 2018 18:41:00 GMT
+Server: Apache/2.4.37 (Unix) OpenSSL/1.0.2p PHP/7.2.12 mod_perl/2.0.8-dev Perl/v5.16.3
+X-Powered-By: PHP/7.2.12
+Content-Range: bytes 0-2014/2015
+Content-Length: 2015
+Keep-Alive: timeout=5, max=23
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
+<head>
+      <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+      <title>Reset Password Request</title>
+      <link rel="STYLESHEET" type="text/css" href="style/fg_membersite.css" />
+      <script type='text/javascript' src='scripts/gen_validatorv31.js'></script>
+</head>
+<body>
+<!-- Form Code Start -->
+<div id='fg_membersite'>
+<form id='resetreq' action='/bezp_L6/source/reset-pwd-req.php/style/fg_membersite.css/.htaccess.aspx--&gt;&quot;&gt;'&gt;'&quot;&lt;sfi007812v611059&gt;' method='post' accept-charset='UTF-8'>
+<fieldset >
+<legend>Reset Password</legend>
+
+<input type='hidden' name='submitted' id='submitted' value='1'/>
+
+<div class='short_explanation'>* required fields</div>
+
+<div><span class='error'></span></div>
+<div class='container'>
+    <label for='username' >Your Email*:</label><br/>
+    <input type='text' name='email' id='email' value='' maxlength="50" /><br/>
+    <span id='resetreq_email_errorloc' class='error'></span>
+</div>
+<div class='short_explanation'>A link to reset your password will be sent to the email address</div>
+<div class='container'>
+    <input type='submit' name='Submit' value='Submit' />
+</div>
+
+</fieldset>
+</form>
+<!-- client-side Form Validations:
+Uses the excellent form validation script from JavaScript-coder.com-->
+
+<script type='text/javascript'>
+// <![CDATA[
+
+    var frmvalidator  = new Validator("resetreq");
+    frmvalidator.EnableOnPageErrorDisplay();
+    frmvalidator.EnableMsgsTogether();
+
+    frmvalidator.addValidation("email","req","Please provide the email address used to sign-up");
+    frmvalidator.addValidation("email","email","Please provide the email address used to sign-up");
+
+// ]]>
+</script>
+
+</div>
+<!--
+Form Code End (see html-form-guide.com for more info.)
+-->
+
+</body>
+</html>or(1

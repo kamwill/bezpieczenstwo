@@ -1,0 +1,60 @@
+HTTP/1.1 200 Partial Content
+Date: Mon, 26 Nov 2018 18:43:46 GMT
+Server: Apache/2.4.37 (Unix) OpenSSL/1.0.2p PHP/7.2.12 mod_perl/2.0.8-dev Perl/v5.16.3
+Last-Modified: Thu, 11 Sep 2014 12:49:48 GMT
+ETag: "236-502c99a8a7300"
+Accept-Ranges: bytes
+Content-Length: 566
+Content-Range: bytes 0-565/566
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Content-Type: text/css
+
+.pwdwidgetdiv
+{
+	width:225px;
+}
+
+.pwdfield
+{
+    display:block;
+}
+
+.pwdopsdiv
+{
+	display: block;
+	float: left;
+	margin-right:6px;	
+}
+.pwdopsdiv a
+{
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10px; 
+}
+
+.pwdstrengthbar
+{
+	float:right;
+	background:#cccccc;
+	height:4px;
+	margin:0;
+}
+
+.pwdstrength
+{
+	float:right; 
+	height:20px;
+	width:70px;
+	margin-top:3px;
+
+}
+.pwdstrengthstr
+{
+    float:right;
+	clear:both;
+	height:14px;
+	margin-top:0px;
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 10px; 
+
+}

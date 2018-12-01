@@ -1,0 +1,35 @@
+HTTP/1.1 200 Partial Content
+Date: Mon, 26 Nov 2018 18:36:23 GMT
+Server: Apache/2.4.37 (Unix) OpenSSL/1.0.2p PHP/7.2.12 mod_perl/2.0.8-dev Perl/v5.16.3
+X-Powered-By: PHP/7.2.12
+Content-Range: bytes 0-659/660
+Content-Length: 660
+Keep-Alive: timeout=5, max=36
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <title>Tytul strony</title>
+    <meta name="description" content="...">
+    <meta name="author" content="...">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+</head>
+<body>
+
+    <h2>Bank</h2>
+    <p><span class="error">* required field</span></p>
+    <form method="post" action="/bezp_L6/index.php">
+      Login: <input type="text" name="LOGIN">
+      <br><br>
+      Password: <input type="text" name="PASS">
+      <br><br>
+      <input type="submit" name="submit" value="Submit">
+    </form>
+    <a href="./reset-pass.php">Resetuj has≈Ço</a>
+</body>
+</html>
+Ü≥“
